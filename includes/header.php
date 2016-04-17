@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title><?php echo $pageTitle; ?></title>
 	<link rel="stylesheet" href="css/normalize.css" type="text/css">
-	
 	<link href='http://fonts.googleapis.com/css?family=Qwigley|Raleway:400,700' rel='stylesheet' type='text/css'>
 	<link rel="shortcut icon" href="favicon.ico">
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
@@ -36,6 +35,7 @@
 
 			<ul class="nav-collapse">
 				<li><a href="index.php">Home</a></li>
+				<li><a href="bookings.php">Bookings</a></li>
   				<li><a href="pricelist.php">Pricelist</a></li>
   				<li><a href="offers.php">Offers</a></li>
   				<li><a href="parties.php">Parties</a></li>

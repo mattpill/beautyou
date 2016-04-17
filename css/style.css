@@ -15,23 +15,66 @@ body {
   margin: 5% 30% 0 30%;
 }
 
+#box {
+  clear: both;
+  color: #fff;
+  width: 80%;
+  margin: 5%;
+  border: 2px solid #fff;
+  padding: 2.5% 5%; 
+  background: #8C3449;
+  border-radius: 25px;
+}
+
+#box h2 {
+  font-size: 1em;
+}
+
 .footer {
-  text-align: center;
+  
   font-size: 0.6em;
 }
 
-.footer_icons ul {
+ .footer_icons ul {
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 0;
+  }
+
+  .footer_icons li {
+    display: inline-block;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+    width: 60px;
+    margin-bottom: 30px;
+  }
+
+  .footer_icons img {
+    width:75%;
+  }
+.copyright {
+  clear: both;
   text-align: center;
 }
 
-.footer_icons li {
-  display: inline-block;
-  padding: 2%;
-  margin-left: auto;
-  margin-right: auto;
+.copyright a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 700;
 }
 
-
+a {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.2em;
+  text-decoration: none;
+}
+ a:hover{
+  color: #ff85a2;
+ }
 /********************
 GENERAL - END
 ********************/
@@ -46,10 +89,10 @@ STYLING FOR SLIDER
   position: relative;
   list-style: none;
   overflow: hidden;
-  width: 90%;
+  width: 1050px;
   height: 450px;
   padding: 0;
-  margin: 0 5% 0 5%;
+  margin: 0 auto 0 auto;
   }
 
 .rslides li {
@@ -69,10 +112,11 @@ STYLING FOR SLIDER
 
 .rslides img {
   display: block;
-  height: auto;
+  height: 445px;
   float: left;
-  width: 100%;
-  border: 0;
+  width: 99%;
+  border: 2px solid #8C3449;
+  border-radius: 25px;
   }
 
 /********************
@@ -121,9 +165,9 @@ STYLING FOR SLIDER -END
 
 @media screen and (min-width: 40em) {
   .nav-collapse li {
-    width: 20%;
-    *width: 24.9%; /* IE7 Hack */
-    _width: 19%; /* IE6 Hack */
+    width: 16.6%;
+    *width: 16.6%; /* IE7 Hack */
+    _width: 16.6%; /* IE6 Hack */
   }
 }
 
@@ -164,7 +208,7 @@ STYLING FOR SLIDER -END
   NAV TOGGLE STYLES
 --------------------------------------------- */
 
-@font-face {
+/*@font-face {
   font-family: "responsivenav";
   src:url("../icons/responsivenav.eot");
   src:url("../icons/responsivenav.eot?#iefix") format("embedded-opentype"),
@@ -173,7 +217,7 @@ STYLING FOR SLIDER -END
     url("../icons/responsivenav.svg#responsivenav") format("svg");
   font-weight: normal;
   font-style: normal;
-}
+}*/
 
 .nav-toggle {
   position: fixed;
@@ -195,7 +239,7 @@ STYLING FOR SLIDER -END
 
 .nav-toggle:before {
   color: #8C3449; /* Edit this to change the icon color */
-  font-family: "responsivenav", sans-serif;
+  /*font-family: "responsivenav", sans-serif;*/
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -222,11 +266,200 @@ HOME PAGE
 ********************/
 
 .welcome {
-  width: 90%;
+  color: #fff;
+  width: 80%;
   margin: 5%;
+  border: 2px solid #fff;
+  padding: 2.5% 5%;
+  background: #8C3449;
+  border-radius: 25px;
 }
 
 
 /********************
-HOME PAGE -END
+HOME PAGE - END
 ********************/
+
+
+
+/********************
+BOOKINGS
+********************/
+
+.booking_widget {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+/********************
+BOOKING - END
+********************/
+
+
+
+/********************
+PRICELIST PAGE
+********************/
+
+.pricelist {
+  color: #fff;
+  width: 80%;
+  margin: 5%;
+  border: 2px solid #fff;
+  padding: 2.5% 5%; 
+  background: #8C3449;
+  border-radius: 25px;
+}
+
+.pricelist h2 {
+  font-size: 1em;
+}
+
+.pricelist p {
+  font-size: 0.8em;
+}
+
+/********************
+PRICELIST PAGE - END
+********************/
+
+
+
+/********************
+OFFERS PAGE
+********************/
+
+.offers {
+  text-align: center;
+}
+
+/********************
+OFFERS PAGE - END
+********************/
+
+
+
+/********************
+CONTACT PAGE
+********************/
+
+.contact a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #fff;
+}
+
+/********************
+CONTACT PAGE - END
+********************/
+
+@media screen and (max-width: 200px) {
+
+  .rslides {
+    height: 250px;
+    width: 90%;
+  }
+
+  .rslides img {
+    height: 240px;
+  }
+
+  /********************
+  PARTIES PAGE
+  ********************/
+
+  .parties {
+   
+    width: 98%;
+    margin-left: 1%;
+    margin-right: 1%;
+
+  }
+
+  .parties img {
+    width: 100%;
+  }
+
+  /********************
+  PARTIES PAGE - END
+  ********************/
+
+   
+
+}
+
+
+
+@media screen and (max-width: 480px) {
+
+  .rslides {
+    height: 250px;
+    width: 90%;
+  }
+
+  .rslides img {
+    height: 240px;
+  }
+
+  /********************
+  PARTIES PAGE
+  ********************/
+
+  .parties {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+
+  }
+
+  /********************
+  PARTIES PAGE - END
+  ********************/
+
+    .footer_icons li {
+    width: 15%;
+    padding: 2%;
+    }
+
+    .footer_icons img {
+    width:100%;
+  }
+}
+
+
+
+@media screen and (max-width: 660px) {
+
+  .rslides {
+    width: 90%;
+  }
+
+/*  .rslides img {
+    height: 445px;
+  }*/
+
+  /********************
+  PARTIES PAGE
+  ********************/
+
+  .parties {
+    width: 90%;
+    margin: 5%;
+    display: inline-block;
+    white-space: nowrap;
+  }
+
+  .parties img {
+    width: 50%;
+  }
+
+  /********************
+  PARTIES PAGE - END
+  ********************/
+
+    .footer_icons img {
+    width:40%;
+  }
+}
