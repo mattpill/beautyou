@@ -463,3 +463,9 @@ CONTACT PAGE - END
     width:40%;
   }
 }
+
+@media screen and (max-width: 1050px) {
+  .rslides {
+    width: 90%;
+  }
+}
